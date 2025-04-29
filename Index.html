@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Desarrollador Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <span>&lt;/&gt;</span>
+                    <h1>Mi Portfolio</h1>
+                </div>
+                <div class="menu-toggle">
+                    <div class="hamburger"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Desarrollador <span class="highlight">Full Stack</span></h1>
+                    <h2>Ingeniero en Informática</h2>
+                    <p>Creando soluciones digitales con pasión y precisión técnica.</p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn primary">Ver Proyectos</a>
+                        <a href="#contacto" class="btn secondary">Contactar</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="blob"></div>
+                    <div class="code-snippet">
+                        <pre><code>
+function <span class="function">desarrollador</span>() {
+  const <span class="variable">skills</span> = [
+    <span class="string">'Python'</span>,
+    <span class="string">'React'</span>,
+    <span class="string">'Node.js'</span>,
+    <span class="string">'Django'</span>
+  ];
+  
+  return {
+    <span class="property">passion</span>: <span class="string">'Coding'</span>,
+    <span class="property">experience</span>: <span class="string">'Full Stack'</span>,
+    <span class="property">goal</span>: <span class="string">'Innovar'</span>
+  };
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="technologies">
+            <h2 class="section-title">Tecnologías</h2>
+            <div class="tech-container">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+                            <span>Django</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask">
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Databases</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="tech-item postgresql">
+                            <img src="image/icono_postgres.svg" alt="PostgreSQL">
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite">
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Herramientas</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x340/0a192f/64ffda?text=Proyecto+1" alt="Deteccion de manos">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/Deteccion-de-manos" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Hand Detection with MediaPipe</h3>
+                        <p>Este proyecto utiliza la cámara web para detectar las manos y reproducir sonidos diferentes según los dedos que se levanten.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>MediaPipe</span>
+                            <span>Pygame</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x340/0a192f/64ffda?text=Proyecto+2" alt="Encriptación AES">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/Encriptyon_AES" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AES Encryption System</h3>
+                        <p>Este proyecto es un sistema de encriptación y desencriptación basado en el estándar AES (Advanced Encryption Standard).</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>Node.js</span>
+                            <span>React</span>
+                            <span>cryptography</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Image/Water_Reminder.png" alt="Water-Reminder">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/Water-Reminder" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Water Reminder App</h3>
+                        <p>Esta aplicación te ayuda a recordar beber agua regularmente, mostrando notificaciones en tu sistema y un reloj visual que cuenta el tiempo restante hasta el próximo recordatorio.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>tkinter</span>
+                            <span>Pillow</span>
+                            <span>pystray</span>
+                            <span>plyer</span>
+                            <span>pyinstaler</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x340/0a192f/64ffda?text=Proyecto+4" alt="Educursos">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/Ecomerse" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>  
+                    <div class="project-info">
+                        <h3>Plataforma de Educación en Línea</h3>
+                        <p>plataforma de educación en línea que permite a los usuarios registrarse, iniciar sesión, inscribirse en cursos, y gestionar su perfil.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>Python</span>
+                            <span>Sqlite</span>
+                            <span>Bcrypt</span>
+                            <span>Pandas</span>
+                            <span>Numpy</span>
+                            <span>XlsxWriter</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x340/0a192f/64ffda?text=Proyecto+5" alt="Portapapeles">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/Gestor-de-Portapapeles" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gestor de Portapapeles</h3>
+                        <p>La aplicación permite monitorear el portapapeles del sistema, almacenar el historial de elementos copiados (texto e imágenes), y proporciona una interfaz gráfica para gestionar estos elementos.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyQt5</span>
+                            <span>pyinstaller</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x340/0a192f/64ffda?text=Proyecto+6" alt="Calendario">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/MiCalendarioAgenda" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Calendario Agenda</h3>
+                        <p>App para dispositivos móviles multiplataforma que cuenta con Calendario y agenda para organizar los tiempos y actividades diarias de sus usuarios</p>
+                        <div class="project-tech">
+                            <span>React native</span>
+                            <span>Expo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x340/0a192f/64ffda?text=Proyecto+7" alt="Pag-cocina">
+                        <div class="project-links">
+                            <a href="https://github.com/silvaanthony2005/Pag-cocina" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Página de cocina</h3>
+                        <p>Este proyecto es una plataforma web para la gestión de cursos de cocina, que incluye funcionalidades de registro, login, gestión de usuarios, inscripción a cursos, y un chatbot integrado.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>OpenStreetMap</span>
+                            <span>AOS</span>
+                            <span>Botpress</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>Estoy disponible para proyectos freelance, oportunidades laborales o simplemente para charlar sobre tecnología.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/silvaanthony2005" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/username" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/silvaanthony2005" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="mailto:silvaanthony2005@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>silvaanthony2005@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="emailForm" action="https://formspree.io/f/xgvkegqk" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>&lt;/&gt;</span>
+                    <p>Desarrollador Full Stack</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#tecnologias">Tecnologías</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/silvaanthony2005" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/silvaanthony2005" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:silvaanthony2005@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Anthony SIlva. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
