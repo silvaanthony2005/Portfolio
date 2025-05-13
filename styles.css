@@ -854,6 +854,13 @@
       grid-template-columns: 1fr;
     }
   
+    .technologies,
+    .projects,
+    .contact {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  
     .footer-content {
       flex-direction: column;
       gap: 2rem;
@@ -873,6 +880,11 @@
     .hero-text h2 {
       font-size: 1.2rem;
     }
+
+    .hero-text p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
   
     .hero-buttons {
       flex-direction: column;
@@ -885,6 +897,13 @@
   
     .projects-grid {
       grid-template-columns: 1fr;
+    }
+  
+    .technologies,
+    .projects,
+    .contact {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   
     .tech-grid {
