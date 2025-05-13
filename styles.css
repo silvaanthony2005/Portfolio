@@ -128,11 +128,6 @@
   .highlight {
     color: var(--accent);
   }
-
-  .highlight-bold {
-    color: var(--accent);
-    font-weight: bold;
-  }
   
   /* Header y Navegación */
   header {
