@@ -128,6 +128,11 @@
   .highlight {
     color: var(--accent);
   }
+
+  .highlight-bold {
+    color: var(--accent);
+    font-weight: bold;
+  }
   
   /* Header y Navegación */
   header {
@@ -171,7 +176,7 @@
   
   .logo h1 {
     font-size: 1.5rem;
-    color: var(--text-primary);
+    color: var (--text-primary);
   }
   
   .nav-links {
@@ -234,7 +239,7 @@
     height: 3px;
     background-color: var(--accent);
     border-radius: 5px;
-    transition: var(--transition);
+    transition: var (--transition);
   }
   
   .hamburger::before {
@@ -277,8 +282,11 @@
   }
   
   .hero-text {
-    flex: 1;
-    padding: 1.5rem; /* Añadimos margen interno */
+    flex: 1.5; /* Aumentamos la proporción del espacio para el texto */
+    padding: 1.5rem;
+    display: flex; /* Añadimos flexbox */
+    flex-direction: column; /* Dirección de columna */
+    justify-content: center; /* Centramos verticalmente el contenido */
   }
   
   .hero-text h1 {
@@ -297,7 +305,7 @@
     font-size: 1.2rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
-    max-width: 500px;
+    max-width: 600px; /* Aumentamos el ancho máximo del párrafo */
   }
   
   .hero-buttons {
@@ -312,6 +320,22 @@
     justify-content: center;
     align-items: center;
     padding: 1.5rem; /* Añadimos margen interno */
+  }
+
+  .profile-image-container {
+    width: 300px; /* Ajusta según el tamaño deseado */
+    height: 300px; /* Ajusta según el tamaño deseado */
+    border-radius: 50%; /* Para hacerlo circular */
+    overflow: hidden; /* Para recortar la imagen a la forma del contenedor */
+    box-shadow: var(--shadow);
+    position: relative;
+    z-index: 1; /* Aseguramos que esté por encima del blob */
+  }
+
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para asegurar que la imagen cubra el contenedor sin distorsionarse */
   }
   
   .blob {
@@ -342,45 +366,6 @@
     100% {
       border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
-  }
-  
-  .code-snippet {
-    background-color: var(--bg-secondary);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    box-shadow: var(--shadow);
-    position: relative;
-    z-index: 1; /* Aseguramos que esté por encima del blob */
-    width: 100%;
-    max-width: 500px;
-    font-family: var(--font-code);
-    overflow: hidden;
-  }
-  
-  .code-snippet pre {
-    overflow-x: auto;
-    padding: 0.5rem; /* Añadimos margen interno */
-  }
-  
-  .code-snippet code {
-    color: var(--text-primary);
-    line-height: 1.5;
-  }
-  
-  .code-snippet .function {
-    color: #ff79c6;
-  }
-  
-  .code-snippet .variable {
-    color: #bd93f9;
-  }
-  
-  .code-snippet .string {
-    color: #f1fa8c;
-  }
-  
-  .code-snippet .property {
-    color: #8be9fd;
   }
   
   /* Technologies Section */
@@ -458,7 +443,7 @@
   
   .tech-item span {
     font-size: 0.9rem;
-    color: var(--text-secondary);
+    color: var (--text-secondary);
   }
   
   /* Projects Section */
