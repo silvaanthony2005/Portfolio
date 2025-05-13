@@ -573,12 +573,13 @@
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding: 0 2rem; /* Añadido padding horizontal */
+    align-items: start; /* Alinea los items del grid al inicio */
   }
   
   .contact-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Alinea el contenido al inicio */
     padding: 1.5rem; /* Añadimos margen interno */
   }
   
